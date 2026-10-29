@@ -24,18 +24,18 @@ int main() {
         if (yearInt % 4 == 0) {
             if (yearInt % 100 == 0) {
                 if (yearInt % 400 == 0) {
-                    std::cout << yearStr << "is a leap year" << std::endl;
+                    std::cout << yearStr << " is a leap year" << std::endl;
                 } else {
-                    std::cout << yearStr << "is not a leap year" << std::endl;
+                    std::cout << yearStr << " is not a leap year" << std::endl;
                 }
             } else {
-                std::cout << yearStr << "is not a leap year" << std::endl;
+                std::cout << yearStr << " is not a leap year" << std::endl;
             }
         } else {
-            std::cout << yearStr << "is not a leap year" << std::endl;
+            std::cout << yearStr << " is not a leap year" << std::endl;
         }
     } catch(std::invalid_argument) {
-        std::cout << yearStr << "is not a valid year" << std::endl;
+        std::cout << yearStr << " is not a valid year" << std::endl;
     }
     std::cout << "Thank you for playing" << std::endl;
 }
