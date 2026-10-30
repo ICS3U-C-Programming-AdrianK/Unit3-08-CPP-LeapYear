@@ -29,7 +29,7 @@ int main() {
                     std::cout << yearStr << " is not a leap year" << std::endl;
                 }
             } else {
-                std::cout << yearStr << " is not a leap year" << std::endl;
+                std::cout << yearStr << " is a leap year" << std::endl;
             }
         } else {
             std::cout << yearStr << " is not a leap year" << std::endl;
